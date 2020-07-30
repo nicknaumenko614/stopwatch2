@@ -1,0 +1,41 @@
+.display-screen {
+    position: absolute;
+    top:322px;
+    left: 310px;
+    background-color: azure;
+    height: 182px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.display {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 60pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.start, .pause, .reset {
+position: absolute;
+left: 1000px;
+padding: 30px 50px;
+background-color: grey;
+color: white;
+font-size: 20pt;
+border-radius: 50px;
+cursor: pointer;
+}
+
+.start {
+    top: 200px;
+}
+
+.pause {
+    top: 400px;
+}
+
+.reset {
+    top: 600px;
+}
